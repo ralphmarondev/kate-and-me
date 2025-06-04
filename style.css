@@ -1,0 +1,36 @@
+* {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: #555;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #b62972;
+    --dark-color: #cd5794;
+    --footer-color: #491a32;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card */
+.card .column {
+    width: 520px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid pink;
+    box-shadow: var(--dark-color);
+}
+
+.card .column img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+}
