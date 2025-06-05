@@ -11,6 +11,46 @@
     --footer-color: #491a32;
 }
 
+/* navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: var(--primary-color);
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav .logo {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+nav li .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav .btn-login {
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #dbb9c6;
+    font-weight: 500;
+}
+
+nav .btn-login:hover {
+    background: #bd9ca8;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -19,6 +59,10 @@ main {
 }
 
 /* card */
+.card {
+    margin: 6px 0;
+}
+
 .card .column {
     width: 520px;
     padding: 10px;
