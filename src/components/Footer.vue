@@ -1,8 +1,13 @@
 <template>
-  <footer class="w-full bg-purple-100 border-t border-purple-200 mt-12">
-    <div class="max-w-screen-lg mx-auto text-center py-6 text-purple-600 text-sm font-medium space-y-2">
-      <p>Crafted with care by Ralph Maron Eda 💜</p>
-      <p class="text-xs text-purple-400">&copy; {{ new Date().getFullYear() }} Kate & Ralph. All rights reserved.</p>
-    </div>
-  </footer>
+	<footer class="bg-gray-800 text-white px-6 sm:px-10 lg:px-24 py-10 mt-12">
+		<div class="max-w-7xl mx-auto flex flex-col gap-3 text-sm text-purple-300">
+			<p class="text-sm text-purple-200">
+				Made this to remember little stuff.
+			</p>
+			<div class="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-purple-100">
+				<p>&copy; {{ new Date().getFullYear() }} Kate and Ralph. All rights reserved.</p>
+				<p class="mt-1 sm:mt-0">Last update: June 6, 2025</p>
+			</div>
+		</div>
+	</footer>
 </template>

@@ -12,6 +12,7 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "@iconify/vue": "^5.0.0",
     "@tailwindcss/vite": "^4.1.8",
     "aos": "^2.3.4",
     "pinia": "^3.0.1",
